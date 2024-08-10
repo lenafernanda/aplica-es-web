@@ -1,0 +1,301 @@
+nav {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: orange;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-right: 20px;
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    padding: 10px;
+    box-shadow: 3px 3px 3px gray;
+    display: inline-block;
+    width: 175px; 
+    text-align: center; 
+    margin: 0 10px; 
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: gray;
+}
+
+#titulo {
+    font-family: verdana;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px white;
+    background-color: orange;
+    text-align: center;
+    padding: 1px;
+    margin: 50px 300px 50px 300px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#titulo2 {
+    font-family: verdana;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px white;
+    background-color: orange;
+    text-align: center;
+    padding: 1px;
+    margin: 50px 100px 50px 100px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+#titulo3 {
+    font-family: verdana;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px white;
+    background-color: orange;
+    text-align: center;
+    padding: 1px;
+    margin: 50px 250px 50px 250px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#titulo4 {
+    font-family: verdana;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px white;
+    background-color: orange;
+    text-align: center;
+    padding: 1px;
+    margin: 50px 80px 50px 80px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#titulo5 {
+    font-family: verdana;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px white;
+    background-color: orange;
+    text-align: center;
+    padding: 1px;
+    margin: 50px 120px 50px 120px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#titulo6 {
+    font-family: verdana;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px white;
+    background-color: orange;
+    text-align: center;
+    padding: 1px;
+    margin: 50px 150px 50px 150px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#subtitulo {
+    font-family: verdana;
+    background-color: rgb(13, 232, 248);
+    text-align: center;
+    padding: 1px;
+    margin: 50px 400px 50px 400px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#subtitulo2 {
+    font-family: verdana;
+    background-color: rgb(13, 232, 248);
+    text-align: center;
+    padding: 1px;
+    margin: 50px 400px 50px 400px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#subtitulo3 {
+    font-family: verdana;
+    background-color: rgb(13, 232, 248);
+    text-align: center;
+    padding: 1px;
+    margin: 50px 400px 50px 400px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#subtitulo4 {
+    font-family: verdana;
+    background-color: rgb(13, 232, 248);
+    text-align: center;
+    padding: 1px;
+    margin: 50px 400px 50px 400px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#subtitulo5 {
+    font-family: verdana;
+    background-color: rgb(13, 232, 248);
+    text-align: center;
+    padding: 1px;
+    margin: 50px 290px 50px 290px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#subtitulo6 {
+    font-family: verdana;
+    background-color: rgb(13, 232, 248);
+    text-align: center;
+    padding: 1px;
+    margin: 50px 200px 50px 200px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+#subtitulo7 {
+    font-family: verdana;
+    background-color: rgb(13, 232, 248);
+    text-align: center;
+    padding: 1px;
+    margin: 50px 150px 50px 150px;
+    border-radius: 100px;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+body {
+    background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-onda-de-particula-gradiente_23-2150453398.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1715040000&semt=ais');
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.texto {
+    max-width: 1000px;
+    margin: 100px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.progamacao {
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.historia {
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linguagens {
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.javascript {
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.php {
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.css {
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.linguagem-c {
+    width: 600px;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ide {
+    width: 900px;
+    margin-left: 50px;
+}
+
+.tipos-ide {
+    width: 900px;
+    margin-left: 50px;
+}
+
+.problemas {
+    width: 700px;
+    margin-left: 150px;
+}
+
+.solucao {
+    width: 700px;
+    margin-left: 150px;
+}
+
+.conceitos_basicos {
+    width: 700px;
+    margin-left: 150px;
+}
+
+.conclusao {
+    width: 700px;
+    margin-left: 130px;
+}
+
+.tendencias {
+    width: 700px;
+    margin-left: 150px;
+}
+
+.lista {
+    margin-left: 80px;
+    margin-right: 50px;
+}
+
+footer {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#comentarios {
+    width: 500px;
+    margin-left: 350px;
+}

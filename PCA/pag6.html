@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tendências Futuras</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="fundo2.jpg" type="image/x-icon">
+</head>
+<body>
+        <nav>
+            <ul>
+                <li><a href="pag1.html"><strong>Introdução</strong></a></li>
+                <li><a href="pag2.html"><strong>Linguagens</strong></a></li>
+                <li><a href="pag3.html"><strong>IDE</strong></a></li>
+                <li><a href="pag4.html"><strong>Problemas Comuns</strong></a></li>
+                <li><a href="pag5.html"><strong>Solução de Problemas</strong></a></li>
+                <li><a href="pag6.html"><strong>Conclusão</strong></a></li>
+            </ul>
+        </nav>
+    <main class="texto">
+        <section id="titulo6">
+            <h1> Tendências Futuras em Programação e Tecnologia: Abrindo as Portas para um Amanhã Inovador</h1>
+        </section>
+        <img class="tendencias" src="tendencias.jpg">
+            <p>
+                A programação está em constante evolução, moldando o mundo ao nosso redor e abrindo portas para um futuro promissor. <br>
+                As tendências discutidas acima representam apenas um vislumbre do queestá por vir, um panorama repleto de oportunidades e desafios para os profissionais da área.
+            </p>
+        <section id="subtitulo7">
+            <h1>Para concluir, podemos destacar alguns pontos importantes: </h1>
+        </section>
+        <img class="conclusao" src="conclusao.jpg">
+        <section class="lista">
+            <li>
+                <strong>Aprender e se adaptar:</strong>A chave para o sucesso no futuro da programação estará na capacidade de aprender continuamente e se adaptar às novas tecnologias e tendências. 
+            </li>
+            <li>
+                <strong>Pensamento crítico e criativo:</strong>Além de habilidades técnicas, os programadores precisarão desenvolver o pensamento crítico e criativo para resolver problemas complexos
+                e criar soluções inovadoras. 
+            </li>
+            <li>
+                <strong>Colaboração e comunicação:</strong>O trabalho em equipe e a comunicação eficaz serão essenciais para o desenvolvimento 
+                de projetos complexos e a superação de desafios em conjunto.
+            </li>
+            <li>
+                <strong>Os programadores</strong> terão a responsabilidade de utilizar suas habilidades para o bem da sociedade, 
+                considerando os impactos éticos e sociais de seus projetos.
+            </li>
+        </section>
+            <p> 
+                O futuro da programação é promissor e repleto de oportunidades para aqueles que se dedicarem a aprender, 
+                se adaptar e utilizar seus conhecimentos para construir um mundo melhor.
+            </p>
+            <br>
+            <hr>
+            <section id="comentarios">
+                <h2>Deixe seu comentário</h2>
+                <form id="comentarioForm">
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" required><br><br>
+                    
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="comentario">Comentário:</label><br>
+                    <textarea id="comentario" name="comentario" rows="4" required></textarea><br><br>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+                <p id="mensagem" style="color: green;"></p>
+            </section>
+            <br>
+            <br>
+            <hr>
+    <footer>
+        <p>&copy; Conclusão 2024</p>
+    </footer>
+    <script>
+        document.getElementById('comentarioForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const nome = document.getElementById('nome').value;
+            const email = document.getElementById('email').value;
+            const comentario = document.getElementById('comentario').value;
+            document.getElementById('mensagem').textContent = 'Obrigado pelo seu comentário, ' + nome + '!';
+            document.getElementById('comentarioForm').reset();
+        });
+    </script>
+    </main>
+</body>
+</html>
